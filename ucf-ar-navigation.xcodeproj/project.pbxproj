@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		167226AB2330668F000AAE5A /* SCNLine in Frameworks */ = {isa = PBXBuildFile; productRef = 167226AA2330668F000AAE5A /* SCNLine */; };
+		16A10A4923318158004A7EA9 /* ARCL in Frameworks */ = {isa = PBXBuildFile; productRef = 16A10A4823318158004A7EA9 /* ARCL */; };
+		16EE1889232F1BA300464BD3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16EE1888232F1BA300464BD3 /* AppDelegate.swift */; };
+		16EE188F232F1BA300464BD3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16EE188E232F1BA300464BD3 /* ViewController.swift */; };
+		16EE1892232F1BA300464BD3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16EE1890232F1BA300464BD3 /* Main.storyboard */; };
+		16EE1894232F1BA400464BD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16EE1893232F1BA400464BD3 /* Assets.xcassets */; };
+		16EE1897232F1BA400464BD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16EE1895232F1BA400464BD3 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1672267E23301FA4000AAE5A /* ScalingScheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScalingScheme.swift; sourceTree = "<group>"; };
+		1672267F23301FA4000AAE5A /* LocationNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationNode.swift; sourceTree = "<group>"; };
+		1672268023301FA4000AAE5A /* PolylineNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PolylineNode.swift; sourceTree = "<group>"; };
+		1672268123301FA4000AAE5A /* LocationAnnotationNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationAnnotationNode.swift; sourceTree = "<group>"; };
+		1672268223301FA4000AAE5A /* SceneLocationView+ARSCNViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SceneLocationView+ARSCNViewDelegate.swift"; sourceTree = "<group>"; };
+		1672268423301FA4000AAE5A /* SceneLocationEstimate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneLocationEstimate.swift; sourceTree = "<group>"; };
+		1672268523301FA4000AAE5A /* SceneLocationEstimate+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SceneLocationEstimate+Extensions.swift"; sourceTree = "<group>"; };
+		1672268623301FA4000AAE5A /* SceneLocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneLocationManager.swift; sourceTree = "<group>"; };
+		1672268723301FA4000AAE5A /* LocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		1672268923301FA4000AAE5A /* SCNVector3+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SCNVector3+Extensions.swift"; sourceTree = "<group>"; };
+		1672268A23301FA4000AAE5A /* FloatingPoint+Radians.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FloatingPoint+Radians.swift"; sourceTree = "<group>"; };
+		1672268B23301FA4000AAE5A /* BaseTypes+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "BaseTypes+Extensions.swift"; sourceTree = "<group>"; };
+		1672268C23301FA4000AAE5A /* CGPoint+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGPoint+Extensions.swift"; sourceTree = "<group>"; };
+		1672268D23301FA4000AAE5A /* CLLocation+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CLLocation+Extensions.swift"; sourceTree = "<group>"; };
+		1672268E23301FA4000AAE5A /* SCNNode+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SCNNode+Extensions.swift"; sourceTree = "<group>"; };
+		1672268F23301FA4000AAE5A /* ARKit_CoreLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARKit_CoreLocation.swift; sourceTree = "<group>"; };
+		1672269023301FA4000AAE5A /* SceneLocationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneLocationView.swift; sourceTree = "<group>"; };
+		1672269123301FA4000AAE5A /* SceneLocationViewEstimateDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneLocationViewEstimateDelegate.swift; sourceTree = "<group>"; };
+		1672269223301FA4000AAE5A /* ARCL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARCL.h; sourceTree = "<group>"; };
+		16EE1885232F1BA300464BD3 /* ucf-ar-navigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ucf-ar-navigation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		16EE1888232F1BA300464BD3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		16EE188E232F1BA300464BD3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		16EE1891232F1BA300464BD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		16EE1893232F1BA400464BD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		16EE1896232F1BA400464BD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		16EE1898232F1BA400464BD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16EE1882232F1BA300464BD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16A10A4923318158004A7EA9 /* ARCL in Frameworks */,
+				167226AB2330668F000AAE5A /* SCNLine in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1672267B23301FA4000AAE5A /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				1672267C23301FA4000AAE5A /* ARKit-CoreLocation */,
+				1672269223301FA4000AAE5A /* ARCL.h */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		1672267C23301FA4000AAE5A /* ARKit-CoreLocation */ = {
+			isa = PBXGroup;
+			children = (
+				1672267D23301FA4000AAE5A /* Nodes */,
+				1672268223301FA4000AAE5A /* SceneLocationView+ARSCNViewDelegate.swift */,
+				1672268323301FA4000AAE5A /* Location Manager */,
+				1672268823301FA4000AAE5A /* Extensions */,
+				1672268F23301FA4000AAE5A /* ARKit_CoreLocation.swift */,
+				1672269023301FA4000AAE5A /* SceneLocationView.swift */,
+				1672269123301FA4000AAE5A /* SceneLocationViewEstimateDelegate.swift */,
+			);
+			path = "ARKit-CoreLocation";
+			sourceTree = "<group>";
+		};
+		1672267D23301FA4000AAE5A /* Nodes */ = {
+			isa = PBXGroup;
+			children = (
+				1672267E23301FA4000AAE5A /* ScalingScheme.swift */,
+				1672267F23301FA4000AAE5A /* LocationNode.swift */,
+				1672268023301FA4000AAE5A /* PolylineNode.swift */,
+				1672268123301FA4000AAE5A /* LocationAnnotationNode.swift */,
+			);
+			path = Nodes;
+			sourceTree = "<group>";
+		};
+		1672268323301FA4000AAE5A /* Location Manager */ = {
+			isa = PBXGroup;
+			children = (
+				1672268423301FA4000AAE5A /* SceneLocationEstimate.swift */,
+				1672268523301FA4000AAE5A /* SceneLocationEstimate+Extensions.swift */,
+				1672268623301FA4000AAE5A /* SceneLocationManager.swift */,
+				1672268723301FA4000AAE5A /* LocationManager.swift */,
+			);
+			path = "Location Manager";
+			sourceTree = "<group>";
+		};
+		1672268823301FA4000AAE5A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1672268923301FA4000AAE5A /* SCNVector3+Extensions.swift */,
+				1672268A23301FA4000AAE5A /* FloatingPoint+Radians.swift */,
+				1672268B23301FA4000AAE5A /* BaseTypes+Extensions.swift */,
+				1672268C23301FA4000AAE5A /* CGPoint+Extensions.swift */,
+				1672268D23301FA4000AAE5A /* CLLocation+Extensions.swift */,
+				1672268E23301FA4000AAE5A /* SCNNode+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		1688D1E323301D1600D8DCDA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		16EE187C232F1BA300464BD3 = {
+			isa = PBXGroup;
+			children = (
+				1672267B23301FA4000AAE5A /* Sources */,
+				16EE1887232F1BA300464BD3 /* ucf-ar-navigation */,
+				16EE1886232F1BA300464BD3 /* Products */,
+				1688D1E323301D1600D8DCDA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		16EE1886232F1BA300464BD3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				16EE1885232F1BA300464BD3 /* ucf-ar-navigation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		16EE1887232F1BA300464BD3 /* ucf-ar-navigation */ = {
+			isa = PBXGroup;
+			children = (
+				16EE1888232F1BA300464BD3 /* AppDelegate.swift */,
+				16EE188E232F1BA300464BD3 /* ViewController.swift */,
+				16EE1890232F1BA300464BD3 /* Main.storyboard */,
+				16EE1893232F1BA400464BD3 /* Assets.xcassets */,
+				16EE1895232F1BA400464BD3 /* LaunchScreen.storyboard */,
+				16EE1898232F1BA400464BD3 /* Info.plist */,
+			);
+			path = "ucf-ar-navigation";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		16EE1884232F1BA300464BD3 /* ucf-ar-navigation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16EE189B232F1BA400464BD3 /* Build configuration list for PBXNativeTarget "ucf-ar-navigation" */;
+			buildPhases = (
+				16EE1881232F1BA300464BD3 /* Sources */,
+				16EE1882232F1BA300464BD3 /* Frameworks */,
+				16EE1883232F1BA300464BD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ucf-ar-navigation";
+			packageProductDependencies = (
+				167226AA2330668F000AAE5A /* SCNLine */,
+				16A10A4823318158004A7EA9 /* ARCL */,
+			);
+			productName = "ucf-ar-navigation";
+			productReference = 16EE1885232F1BA300464BD3 /* ucf-ar-navigation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		16EE187D232F1BA300464BD3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = Zogo;
+				TargetAttributes = {
+					16EE1884232F1BA300464BD3 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = 16EE1880232F1BA300464BD3 /* Build configuration list for PBXProject "ucf-ar-navigation" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 16EE187C232F1BA300464BD3;
+			packageReferences = (
+				167226A92330668F000AAE5A /* XCRemoteSwiftPackageReference "SceneKit-SCNLine" */,
+				16A10A4723318158004A7EA9 /* XCRemoteSwiftPackageReference "ARKit-CoreLocation" */,
+			);
+			productRefGroup = 16EE1886232F1BA300464BD3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				16EE1884232F1BA300464BD3 /* ucf-ar-navigation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		16EE1883232F1BA300464BD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16EE1897232F1BA400464BD3 /* LaunchScreen.storyboard in Resources */,
+				16EE1894232F1BA400464BD3 /* Assets.xcassets in Resources */,
+				16EE1892232F1BA300464BD3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16EE1881232F1BA300464BD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16EE188F232F1BA300464BD3 /* ViewController.swift in Sources */,
+				16EE1889232F1BA300464BD3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		16EE1890232F1BA300464BD3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16EE1891232F1BA300464BD3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		16EE1895232F1BA400464BD3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16EE1896232F1BA400464BD3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		16EE1899232F1BA400464BD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		16EE189A232F1BA400464BD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		16EE189C232F1BA400464BD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8LP4UG5E74;
+				INFOPLIST_FILE = "ucf-ar-navigation/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zogo.ucf-ar-navigation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		16EE189D232F1BA400464BD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8LP4UG5E74;
+				INFOPLIST_FILE = "ucf-ar-navigation/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zogo.ucf-ar-navigation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16EE1880232F1BA300464BD3 /* Build configuration list for PBXProject "ucf-ar-navigation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16EE1899232F1BA400464BD3 /* Debug */,
+				16EE189A232F1BA400464BD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16EE189B232F1BA400464BD3 /* Build configuration list for PBXNativeTarget "ucf-ar-navigation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16EE189C232F1BA400464BD3 /* Debug */,
+				16EE189D232F1BA400464BD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		167226A92330668F000AAE5A /* XCRemoteSwiftPackageReference "SceneKit-SCNLine" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/maxxfrazer/SceneKit-SCNLine.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.0;
+			};
+		};
+		16A10A4723318158004A7EA9 /* XCRemoteSwiftPackageReference "ARKit-CoreLocation" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jacobcaraballo/ARKit-CoreLocation";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		167226AA2330668F000AAE5A /* SCNLine */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 167226A92330668F000AAE5A /* XCRemoteSwiftPackageReference "SceneKit-SCNLine" */;
+			productName = SCNLine;
+		};
+		16A10A4823318158004A7EA9 /* ARCL */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 16A10A4723318158004A7EA9 /* XCRemoteSwiftPackageReference "ARKit-CoreLocation" */;
+			productName = ARCL;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 16EE187D232F1BA300464BD3 /* Project object */;
+}

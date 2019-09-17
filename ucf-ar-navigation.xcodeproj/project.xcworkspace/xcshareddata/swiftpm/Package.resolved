@@ -1,0 +1,25 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "ARCL",
+        "repositoryURL": "https://github.com/jacobcaraballo/ARKit-CoreLocation",
+        "state": {
+          "branch": "master",
+          "revision": "e06c3a2a24edeb525a34d32622ed83b8824f221d",
+          "version": null
+        }
+      },
+      {
+        "package": "SCNLine",
+        "repositoryURL": "https://github.com/maxxfrazer/SceneKit-SCNLine.git",
+        "state": {
+          "branch": null,
+          "revision": "17a0610ea9de8083d37c704e216fb51d5f8632b2",
+          "version": "1.1.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
