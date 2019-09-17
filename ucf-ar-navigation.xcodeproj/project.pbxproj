@@ -17,25 +17,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1672267E23301FA4000AAE5A /* ScalingScheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScalingScheme.swift; sourceTree = "<group>"; };
-		1672267F23301FA4000AAE5A /* LocationNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationNode.swift; sourceTree = "<group>"; };
-		1672268023301FA4000AAE5A /* PolylineNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PolylineNode.swift; sourceTree = "<group>"; };
-		1672268123301FA4000AAE5A /* LocationAnnotationNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationAnnotationNode.swift; sourceTree = "<group>"; };
-		1672268223301FA4000AAE5A /* SceneLocationView+ARSCNViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SceneLocationView+ARSCNViewDelegate.swift"; sourceTree = "<group>"; };
-		1672268423301FA4000AAE5A /* SceneLocationEstimate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneLocationEstimate.swift; sourceTree = "<group>"; };
-		1672268523301FA4000AAE5A /* SceneLocationEstimate+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SceneLocationEstimate+Extensions.swift"; sourceTree = "<group>"; };
-		1672268623301FA4000AAE5A /* SceneLocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneLocationManager.swift; sourceTree = "<group>"; };
-		1672268723301FA4000AAE5A /* LocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
-		1672268923301FA4000AAE5A /* SCNVector3+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SCNVector3+Extensions.swift"; sourceTree = "<group>"; };
-		1672268A23301FA4000AAE5A /* FloatingPoint+Radians.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FloatingPoint+Radians.swift"; sourceTree = "<group>"; };
-		1672268B23301FA4000AAE5A /* BaseTypes+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "BaseTypes+Extensions.swift"; sourceTree = "<group>"; };
-		1672268C23301FA4000AAE5A /* CGPoint+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGPoint+Extensions.swift"; sourceTree = "<group>"; };
-		1672268D23301FA4000AAE5A /* CLLocation+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CLLocation+Extensions.swift"; sourceTree = "<group>"; };
-		1672268E23301FA4000AAE5A /* SCNNode+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SCNNode+Extensions.swift"; sourceTree = "<group>"; };
-		1672268F23301FA4000AAE5A /* ARKit_CoreLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARKit_CoreLocation.swift; sourceTree = "<group>"; };
-		1672269023301FA4000AAE5A /* SceneLocationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneLocationView.swift; sourceTree = "<group>"; };
-		1672269123301FA4000AAE5A /* SceneLocationViewEstimateDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneLocationViewEstimateDelegate.swift; sourceTree = "<group>"; };
-		1672269223301FA4000AAE5A /* ARCL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARCL.h; sourceTree = "<group>"; };
 		16EE1885232F1BA300464BD3 /* ucf-ar-navigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ucf-ar-navigation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		16EE1888232F1BA300464BD3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		16EE188E232F1BA300464BD3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,64 +39,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1672267B23301FA4000AAE5A /* Sources */ = {
-			isa = PBXGroup;
-			children = (
-				1672267C23301FA4000AAE5A /* ARKit-CoreLocation */,
-				1672269223301FA4000AAE5A /* ARCL.h */,
-			);
-			path = Sources;
-			sourceTree = "<group>";
-		};
-		1672267C23301FA4000AAE5A /* ARKit-CoreLocation */ = {
-			isa = PBXGroup;
-			children = (
-				1672267D23301FA4000AAE5A /* Nodes */,
-				1672268223301FA4000AAE5A /* SceneLocationView+ARSCNViewDelegate.swift */,
-				1672268323301FA4000AAE5A /* Location Manager */,
-				1672268823301FA4000AAE5A /* Extensions */,
-				1672268F23301FA4000AAE5A /* ARKit_CoreLocation.swift */,
-				1672269023301FA4000AAE5A /* SceneLocationView.swift */,
-				1672269123301FA4000AAE5A /* SceneLocationViewEstimateDelegate.swift */,
-			);
-			path = "ARKit-CoreLocation";
-			sourceTree = "<group>";
-		};
-		1672267D23301FA4000AAE5A /* Nodes */ = {
-			isa = PBXGroup;
-			children = (
-				1672267E23301FA4000AAE5A /* ScalingScheme.swift */,
-				1672267F23301FA4000AAE5A /* LocationNode.swift */,
-				1672268023301FA4000AAE5A /* PolylineNode.swift */,
-				1672268123301FA4000AAE5A /* LocationAnnotationNode.swift */,
-			);
-			path = Nodes;
-			sourceTree = "<group>";
-		};
-		1672268323301FA4000AAE5A /* Location Manager */ = {
-			isa = PBXGroup;
-			children = (
-				1672268423301FA4000AAE5A /* SceneLocationEstimate.swift */,
-				1672268523301FA4000AAE5A /* SceneLocationEstimate+Extensions.swift */,
-				1672268623301FA4000AAE5A /* SceneLocationManager.swift */,
-				1672268723301FA4000AAE5A /* LocationManager.swift */,
-			);
-			path = "Location Manager";
-			sourceTree = "<group>";
-		};
-		1672268823301FA4000AAE5A /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				1672268923301FA4000AAE5A /* SCNVector3+Extensions.swift */,
-				1672268A23301FA4000AAE5A /* FloatingPoint+Radians.swift */,
-				1672268B23301FA4000AAE5A /* BaseTypes+Extensions.swift */,
-				1672268C23301FA4000AAE5A /* CGPoint+Extensions.swift */,
-				1672268D23301FA4000AAE5A /* CLLocation+Extensions.swift */,
-				1672268E23301FA4000AAE5A /* SCNNode+Extensions.swift */,
-			);
-			path = Extensions;
-			sourceTree = "<group>";
-		};
 		1688D1E323301D1600D8DCDA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -126,7 +49,6 @@
 		16EE187C232F1BA300464BD3 = {
 			isa = PBXGroup;
 			children = (
-				1672267B23301FA4000AAE5A /* Sources */,
 				16EE1887232F1BA300464BD3 /* ucf-ar-navigation */,
 				16EE1886232F1BA300464BD3 /* Products */,
 				1688D1E323301D1600D8DCDA /* Frameworks */,
